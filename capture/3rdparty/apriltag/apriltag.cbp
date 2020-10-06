@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="apriltag" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\apriltag\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\usr\share\pcl-1.7\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\CMake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="apriltag">
+         <Option output="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/libapriltag.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DFLANN_STATIC" />
+            <Add option="-Dqh_QHpointer" />
+            <Add directory="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag" />
+            <Add directory="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common" />
+            <Add directory="/home/marios/Desktop/experiment/create3dModel/include" />
+            <Add directory="/usr/bin/../lib/clang/3.4/include" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/backward" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 apriltag" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="apriltag/fast">
+         <Option output="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/libapriltag.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DFLANN_STATIC" />
+            <Add option="-Dqh_QHpointer" />
+            <Add directory="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag" />
+            <Add directory="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common" />
+            <Add directory="/home/marios/Desktop/experiment/create3dModel/include" />
+            <Add directory="/usr/bin/../lib/clang/3.4/include" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/backward" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 apriltag/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/apriltag.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/apriltag_quad_thresh.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/getopt.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/homography.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/image_f32.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/image_u32.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/image_u8.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/matd.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/pnm.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/string_util.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/svd22.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/time_util.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/unionfind.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/workerpool.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/zarray.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/zhash.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/zmaxheap.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/g2d.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag16h5.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag25h7.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag25h9.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag36artoolkit.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag36h10.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag36h11.c">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/apriltag.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/getopt.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/homography.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/image_f32.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/image_u32.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/image_u8.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/matd.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/pnm.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/string_util.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/svd22.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/time_util.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/unionfind.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/workerpool.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/zarray.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/zhash.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/common/zmaxheap.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/g2d.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag16h5.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag25h7.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag25h9.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag36artoolkit.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag36h10.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/tag36h11.h">
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\apriltag\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/3rdparty/apriltag/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\apriltag\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/share/pcl-1.7/PCLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/share/pcl-1.7/PCLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/marios/Desktop/experiment/create3dModel/../../../../../usr/lib/vtk-5.8/CMake/vtkMakeInstantiator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\CMake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
